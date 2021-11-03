@@ -3,7 +3,7 @@ ELK Stack Project
 
 Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
-
+![Screenshot (112)](https://user-images.githubusercontent.com/86533749/140018331-89c220d5-c771-44bc-8a14-7c469c610d64.png)
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Elk_Stack.io file may be used to install only certain pieces of it, such as Filebeat.
 Ansible_filebeat
 This document contains the following details:
@@ -47,7 +47,7 @@ The playbook implements the following tasks:
 - Set up module 
 - Start module
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-https://user-images.githubusercontent.com/85818103/140016296-c5cc5ce9-68c1-41bb-94f8-f96fa348e0e7.png
+![ELK Server](https://user-images.githubusercontent.com/86533749/140018309-a9c392e7-f399-4806-9ebb-f73e2f84e6d7.png)
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 10.0.0.7
